@@ -1,0 +1,2 @@
+# exshaskell
+Exercícios de Haskell
