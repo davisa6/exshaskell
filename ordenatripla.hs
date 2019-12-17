@@ -1,0 +1,7 @@
+ordenatripla :: (Int, Int, Int) -> (Int, Int, Int)
+ordenatripla (a,b,c) | a<b && a<c && b<c = (a,b,c)
+                     | a<b && a<c && c<b = (a,c,b)
+                     | b<a && b<c && a<c = (b,a,c)
+                     | b<a && b<c && c<a = (b,c,a)
+                     | c<a && c<b && a<b = (c,a,b)
+                     | c<a && c<b && b<a = (c,b,a)                    
